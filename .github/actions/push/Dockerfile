@@ -1,7 +1,7 @@
 FROM docker:18.09.1
 
-LABEL "com.github.actions.name"="Build"
-LABEL "com.github.actions.description"="Build Docker image"
+LABEL "com.github.actions.name"="Push"
+LABEL "com.github.actions.description"="Push docker image"
 LABEL "com.github.actions.icon"="loader"
 LABEL "com.github.actions.color"="white"
 

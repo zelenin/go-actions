@@ -10,4 +10,4 @@ else
     DOCKER_TAG=$(echo ${GITHUB_REF} | rev | cut -d/ -f1 | rev)-$(echo ${GITHUB_SHA} | head -c7)
 fi
 
-docker build -t ${DOCKER_IMAGE}:${DOCKER_TAG} -f $1 .
+docker push ${DOCKER_IMAGE}:${DOCKER_TAG}

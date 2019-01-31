@@ -1,7 +1,7 @@
-FROM docker:18.09.1
+FROM golang:1.11.5-alpine3.8
 
-LABEL "com.github.actions.name"="Build"
-LABEL "com.github.actions.description"="Build Docker image"
+LABEL "com.github.actions.name"="Lint"
+LABEL "com.github.actions.description"="Lint Golang code"
 LABEL "com.github.actions.icon"="loader"
 LABEL "com.github.actions.color"="white"
 

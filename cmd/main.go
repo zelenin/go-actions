@@ -1,13 +1,13 @@
 package main
 
 import (
-    "flag"
-    "fmt"
+	"flag"
+	"fmt"
 )
 
 func main() {
-    fromVar := flag.String("from", "", "")
-    flag.Parse()
+	fromVar := flag.String("from", "", "")
+	flag.Parse()
 
-    fmt.Printf("Hello, world, from %s!", *fromVar)
+	fmt.Printf("Hello, world, from %s!", *fromVar)
 }
